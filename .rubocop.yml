@@ -1,0 +1,9 @@
+
+require: rubocop-rails
+
+Rails/FindBy:
+  Exclude:
+    - lib/example.rb
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
